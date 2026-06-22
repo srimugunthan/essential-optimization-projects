@@ -270,3 +270,6 @@
 - **Offline Policy Evaluation (OPE):** Before live deployment, estimate the new policy's expected revenue using historical logged data via Inverse Propensity Scoring (IPS) or Doubly Robust estimators — provides a safe revenue estimate without running a live experiment.
 - **A/B Test Revenue Lift:** The definitive production validation — the RL policy is rolled out to a treatment group and compared against the incumbent rule-based pricing policy on revenue per booking, fulfillment rate, and driver earnings fairness.
 - **Supply-Demand Imbalance Rate:** Ensures the policy hasn't learned to maximize revenue by chronically under-supplying markets — a degenerate strategy that extracts short-term profit but erodes the platform's long-run health.
+
+# Reference
+https://github.com/mobook/MO-book/tree/main 
